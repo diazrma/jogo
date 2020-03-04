@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Jogo</title>
+</head>
+
+<body>
+    <div id="">
+        <img id="p1" src="" width="100">
+
+    </div>
+
+
+
+    <script>
+
+        document.addEventListener('keydown', teclaPressionada, false);
+
+        function teclaPressionada(event) {
+            var element = document.getElementById("p1");
+            switch (event.keyCode) {
+                case 38:
+
+
+                    console.log('sobe')
+                    break;
+                case 40:
+                    // para baixo
+                    console.log('desce')
+                    break;
+
+                case 37:
+                    // para esquerda
+                    console.log('esquerda')
+                    break;
+
+                case 39:
+                    // para direita
+                    console.log('direta')
+                    break;
+                default:
+
+            }
+        }
+
+
+
+
+
+    </script>
+
+
+</body>
+
+
+</html>
